@@ -40,7 +40,7 @@ public class JanelaConsultar extends JFrame {
     }
 
     private void pesquisa(ActionEvent actionEvent) {
-        String cons = inputconsulta.getText();
+        String constante = inputconsulta.getText();
         produto = new CadastroProduto();
     }
 
