@@ -9,6 +9,7 @@ import java.awt.event.ActionEvent;
 public class JanelaConsultar extends JFrame {
     JTextField inputconsulta;
     CadastroProduto produto;
+    
     public JanelaConsultar(){
         setTitle("Consulta");
         setVisible(true);

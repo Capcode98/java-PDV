@@ -8,7 +8,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class JanelaCadastro extends JFrame  {
+public class JanelaCadastro extends JFrame {
     JTextField inputcodigo;
     JTextField inputnome;
     JTextField inputunidade;
@@ -101,6 +101,7 @@ public class JanelaCadastro extends JFrame  {
 
         buconfirmar.addActionListener(this::incluir);
     }
+
     public void incluir(ActionEvent actionEvent) {
 
         String cod = inputcodigo.getText();
@@ -109,6 +110,7 @@ public class JanelaCadastro extends JFrame  {
         String preco = inputpreco.getText();
         String estoque = inputestoque.getText();
         String data = input_ultimavenda.getText();
+
         if (cod.isEmpty() || nome.isEmpty() || unidade.isEmpty() || preco.isEmpty() || estoque.isEmpty() || data.isEmpty()){
             JOptionPane.showMessageDialog(null, "Por favor, preencha todos os campos", "Aviso", JOptionPane.INFORMATION_MESSAGE);
         }
