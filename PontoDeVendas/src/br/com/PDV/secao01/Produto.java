@@ -19,7 +19,9 @@ public class Produto {
     String obterNome(){
         return nome;
     }
-    String obterUnidade(){ return unidade;}
+    String obterUnidade(){ 
+        return unidade;
+    }
     String obterPreco(){
         return preco;
     }
@@ -35,15 +37,12 @@ public class Produto {
     void alterarCodigo(String codigo){
         this.codigo = codigo;
     }
-
     void alterarNome(String nome){
         this.nome = nome;
     }
-
-    void alterarUnidade(String Unidade){
+    void alterarUnidade(String unidade){
         this.unidade = unidade;
     }
-
     void alterarPreco(String preco){
         this.preco = preco;
     }
